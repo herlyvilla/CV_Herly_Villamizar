@@ -5,3 +5,15 @@ h1 {
 article{
     background-color: aliceblue;
 }
+#academic{
+    background-color: aquamarine;
+}
+
+/* --- Estilos generales --- */
+
+
+* {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
