@@ -14,7 +14,9 @@ article{
     margin-left: 40px;
     margin-right: 40px;
 }
-body{
-    background-color: azure;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 /*Estilos fotos de perfil*/
