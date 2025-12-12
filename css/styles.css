@@ -22,5 +22,5 @@ header img{
     border-radius: 50%;  /* la vuelve circular */
     object-fit: cover;   /* evita que se deforme */
     display: block;      /* permite centrarla */
-    margin: 1 auto;      /* la centra horizontalmente */
+    margin: 0 auto;      /* la centra horizontalmente */
 }
