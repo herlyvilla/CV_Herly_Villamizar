@@ -13,7 +13,8 @@ article{
 * {
     margin-left: 40px;
     margin-right: 40px;
-    background-color: rgb(147, 148, 148);
 }
-
+body{
+    background-color: azure;
+}
 /*Estilos fotos de perfil*/
