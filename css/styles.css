@@ -9,11 +9,18 @@ article{
     background-color: aquamarine;
 }
 
-/* --- Estilos generales --- */
-
-
+/* --- Estilos generales de la pagina--- */
 * {
     margin-left: 40px;
     margin-right: 40px;
 }
 
+/*Estilos fotos de perfil*/
+.foto-perfil {
+    width: 200px;        /* tamaño de la imagen */
+    height: 200px;       /* que sea cuadrada */
+    border-radius: 50%;  /* la vuelve circular */
+    object-fit: cover;   /* evita que se deforme */
+    display: block;      /* permite centrarla */
+    margin: 1 auto;      /* la centra horizontalmente */
+}
