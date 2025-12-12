@@ -16,7 +16,7 @@ article{
 }
 
 /*Estilos fotos de perfil*/
-#foto-perfil {
+header img{
     width: 200px;        /* tamaño de la imagen */
     height: 200px;       /* que sea cuadrada */
     border-radius: 50%;  /* la vuelve circular */
