@@ -1,21 +1,229 @@
+/* Colores de la pagina
+    color:#5a189a; titulos h2 
+
+ */
+
+
+
 /* --- Estilos generales de la pagina--- */
 * {
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: rgb(233 221 232);
+    font-family: sans-serif;
 }
-h1 {
-    color: darkblue;
+
+body {
+    background-color: #ffffff;
+}
+
+/* Header */
+header {
+    display: flex;
+    height: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #e0aaff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 30px;
     text-align: center;
-}
-article{
-    background-color: aliceblue;
-}
-#academic{
-    background-color: aquamarine;
+    color: #10002b;
 }
 
+/* ----------------------CONTENEDOR INICIAL --------------------------------- */
+.contenedorInfo {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: stretch;
+    color: rgb(12, 12, 12);
+    font-family: sans-serif;
+    font-size: small;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #e0aaff, #f6f2ff);
+}
+
+/* Imagen de perfil */
+.imagenPerfil img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+
+}
+
+.info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.info h4 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.info p {
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #7b2cbf;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
 
 
-/*Estilos fotos de perfil*/
+/* ------------------------ACADEMIC TRAINING--------------------------- */
+
+.informacion-personal {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    height: auto;
+    background-color: #f6f2ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.informacion-personal h2 {
+    margin: 0%;
+    color: #5a189a;
+}
+
+.informacion-personal p {
+    margin: 0%;
+}
+
+/* ---------------------------------ESTUDIO-------------------------------- */
+.estudio {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #f6f2ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.estudio h2 {
+    color: #5a189a;
+}
+
+.estudio h3 {
+    color: #9d4edd;
+}
+
+/* --------------------------------------TRABAJO--------------------------------- */
+.trabajo {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #f6f2ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.trabajo h2 {
+    color: #5a189a;
+}
+
+.trabajo h3 {
+    color: #9d4edd;
+
+}
+
+/* --------------------------------------------------------------------------- */
+.tecnicas {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #f6f2ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tecnicas h2 {
+    color: #5a189a;
+}
+
+/* --------------------------------------------------------------------------- */
+.personales {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #f6f2ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.personales h2 {
+    color: #5a189a;
+
+}
+
+/* --------------------------------------FOOTER----------------------------- */
+
+footer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to top, #e0aaff, #f6f2ff);
+}
+footer h2{
+    color: #5a189a;
+    margin-bottom: 10px;
+}
+footer .btn {
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #7b2cbf;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+footer p{
+    justify-content: center;
+}
+
